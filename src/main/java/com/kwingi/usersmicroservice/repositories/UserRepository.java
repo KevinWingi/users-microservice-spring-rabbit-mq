@@ -7,5 +7,5 @@ import com.kwingi.usersmicroservice.entities.UserEntity;
 
 @Repository
 public interface UserRepository extends JpaRepository<UserEntity, String> {
-
+	boolean existsByEmail(String email);
 }
