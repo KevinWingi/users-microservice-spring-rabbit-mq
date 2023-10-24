@@ -4,6 +4,9 @@ This users microservice is responsible for creating a new user (inserting into t
 
 [Another microservice](https://github.com/KevinWingi/emails-microservice-spring-sendgrid-rabbit) will be responsible to consume (Consumer) this broker email content and send it
 
+# Endpoint to create a new user
+- `POST` **`{api}`**/users
+
 # Tools:
 - Java 17
 - Spring Data JPA
