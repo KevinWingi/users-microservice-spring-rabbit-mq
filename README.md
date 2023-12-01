@@ -13,3 +13,6 @@ This users microservice is responsible for creating a new user (inserting into t
 - Spring Boot
 - Rabbit MQ
 - [CloudAMQP](https://cloudamqp.com/) for managing Rabbit MQ servers in the CLOUD.
+
+# Docker 
+- [Docker Image] (https://hub.docker.com/repository/docker/kevinwingi/users-ms/general)
